@@ -56,6 +56,27 @@ apostila-china/
 └── README.md
 ```
 
+## PDF e EPUB (Kindle)
+
+Na pasta **`exports/`**:
+
+- **`apostila-china.pdf`** — 110 páginas, layout editorial (gerado via Chrome).
+- **`apostila-china.epub`** — para o Kindle. Envie por **"Enviar para Kindle"**
+  (e-mail do seu Kindle, ou app Send to Kindle / site da Amazon).
+
+Também dá para baixar os dois direto da capa do site (botões **PDF** e **EPUB**).
+
+Para gerar de novo (depois de editar o conteúdo):
+
+```bash
+cd ~/apostila-china
+python3 make_book.py          # gera exports/*.html e *.epub
+# e para o PDF:
+"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
+  --headless=new --no-pdf-header-footer --print-to-pdf=exports/apostila-china.pdf \
+  exports/apostila-china-print.html
+```
+
 ## Publicar online (versão com URL)
 
 O site é estático — qualquer hospedagem de arquivos serve. Sem ferramentas
