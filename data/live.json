@@ -1,0 +1,123 @@
+{
+  "updated": "2026-06-02",
+  "intro": "Panorama do que está acontecendo na China agora — uma camada viva que complementa a apostila (cujo retrato é de maio de 2026). Cada item traz a fonte. Atualize esta seção quando quiser pedindo ao Claude: \"atualize as Atualidades da apostila\".",
+  "categories": [
+    {
+      "key": "economia",
+      "title": "Economia",
+      "zh": "经济",
+      "items": [
+        {
+          "title": "Meta de crescimento abaixo de 5% pela primeira vez",
+          "text": "Em março de 2026, no \"Duas Sessões\", Pequim fixou a meta de PIB para 2026 entre 4,5% e 5% — a mais baixa desde que o país começou a divulgar metas, no início dos anos 1990. Reflete demanda interna fraca e a crise imobiliária prolongada.",
+          "source": {"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/3/5/china-economic-growth-target-set-below-5-for-the-first-time-at-key-meeting"}
+        },
+        {
+          "title": "Setor imobiliário no 5º ano de crise",
+          "text": "Vendas e investimento imobiliário seguem em queda, arrastando confiança e consumo. O imobiliário já chegou a representar 25–30% do PIB. Pela primeira vez em três décadas, investimento em habitação, manufatura e infraestrutura recuou no ano anterior — conecta direto com o Capítulo 5.",
+          "source": {"name": "CNN Business", "url": "https://www.cnn.com/2026/03/04/business/china-npc-gdp-economy-intl-hnk"}
+        },
+        {
+          "title": "15º Plano Quinquenal (2026–2030) aprovado",
+          "text": "O Quinto Plenário aprovou a proposta do 15º Plano Quinquenal, reiterando a meta de 2035: PIB per capita de país \"moderadamente desenvolvido\", o que implica ~4,5% de crescimento real ao ano até 2030. Continuidade sobre ruptura.",
+          "source": {"name": "Asia Pacific Foundation", "url": "https://www.asiapacific.ca/publication/chinas-economic-strategy-2026-prioritize-continuity-over-change"}
+        }
+      ]
+    },
+    {
+      "key": "tech",
+      "title": "Tecnologia & IA",
+      "zh": "科技",
+      "items": [
+        {
+          "title": "DeepSeek V4: a China sem a Nvidia",
+          "text": "Em abril de 2026 a DeepSeek lançou V4-Pro e V4-Flash (open-source). O V4-Pro lidera modelos abertos em matemática e código, ficando só \"marginalmente atrás\" de GPT-5.4 e Gemini 3.1-Pro. Roda em oito chips chineses (Huawei Ascend, T-Head da Alibaba) — prova de que eficiência algorítmica compensa parte do controle de exportação de semicondutores.",
+          "source": {"name": "Al Jazeera / CNBC", "url": "https://www.aljazeera.com/economy/2026/4/24/chinas-deepseek-unveils-latest-model-a-year-after-upending-global-tech"}
+        },
+        {
+          "title": "BYD embarca IA da DeepSeek até em carro de US$ 10 mil",
+          "text": "A BYD vai integrar software da DeepSeek em 21 modelos sem custo extra, incluindo um abaixo de US$ 10 mil, com o sistema de assistência \"God's Eye\". Sinaliza a comoditização de ADAS e a fusão IA + EV barata — temas dos Capítulos 5 e 6.",
+          "source": {"name": "Argus Media", "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2656730-china-s-byd-to-add-deepseek-ai-to-its-affordable-evs"}
+        },
+        {
+          "title": "IA chinesa cada vez mais financiada pelo Estado",
+          "text": "Investidores ligados ao governo passaram de menos de 10 negócios de IA por ano (pré-2018) para mais de 140 em 2025 — alta de ~15x. O \"Estado-economia\" do Capítulo 5 em ação no setor que Xi quer dominar.",
+          "source": {"name": "Fortune", "url": "https://fortune.com/2026/05/19/deepseek-china-ai-venture-capital-nvidia-pitchbook-trends-term-sheet/"}
+        }
+      ]
+    },
+    {
+      "key": "geopolitica",
+      "title": "Geopolítica",
+      "zh": "地缘政治",
+      "items": [
+        {
+          "title": "Taiwan: risco geopolítico nº 1 de Pequim para 2026",
+          "text": "Think tanks ligados a Pequim colocam Taiwan como a principal preocupação externa de 2026, com incerteza das eleições de meio de mandato nos EUA e envolvimento crescente do Japão. O PLA mantém 2–3 grandes exercícios nomeados em torno da ilha por ano.",
+          "source": {"name": "South China Morning Post", "url": "https://www.scmp.com/news/china/diplomacy/article/3345940/taiwan-tensions-no-1-beijings-top-10-geopolitical-risks-2026-think-tank"}
+        },
+        {
+          "title": "EUA–China: Xi chama Taiwan de tema \"mais importante\"",
+          "text": "Xi advertiu que Taiwan é a questão \"mais importante\" da relação bilateral e que, mal conduzida, pode levar tudo a uma \"situação muito perigosa\". A leitura em Pequim é de que Washington está menos comprometido com a defesa da ilha — uma janela percebida como precária.",
+          "source": {"name": "CSIS ChinaPower", "url": "https://chinapower.csis.org/survey-experts-us-china-relations-2026/"}
+        }
+      ]
+    },
+    {
+      "key": "brasil",
+      "title": "Brasil–China",
+      "zh": "巴西",
+      "items": [
+        {
+          "title": "15 acordos e ~US$ 10 bi na visita de Lula (abril)",
+          "text": "Na visita de Estado de Lula à China, foram assinados 15 acordos bilaterais estimados em ~US$ 10 bilhões. A China é a maior parceira comercial do Brasil desde 2009; Pequim investiu ~US$ 66 bi no país desde 2010 (energia, infraestrutura, agro, tech).",
+          "source": {"name": "WTO Center / VCCI", "url": "https://wtocenter.vn/chuyen-de/21773-china-and-brazil-deepen-bilateral-relations-with-signing-of-15-agreements-during-lula-visit"}
+        },
+        {
+          "title": "Tarifas dos EUA aproximam Brasília e Pequim",
+          "text": "Em resposta às tarifas dos EUA sobre o Brasil, a China anunciou intenção de ampliar importações de café, carne e grãos brasileiros. A fábrica da BYD em Camaçari deve estar plenamente operacional até o fim de 2026 — leitura direta para o Capítulo 7.",
+          "source": {"name": "GIS Reports", "url": "https://www.gisreportsonline.com/r/brazil-us-ties/"}
+        }
+      ]
+    },
+    {
+      "key": "sociedade",
+      "title": "Sociedade & Demografia",
+      "zh": "社会",
+      "items": [
+        {
+          "title": "Quarto ano de queda populacional",
+          "text": "A população em meados de 2026 é estimada em ~1,413 bilhão, ante 1,416 bi em 2025 — quarto ano consecutivo de queda, em ritmo acelerando. Em 2025, 11,31 mi de mortes contra apenas 7,92 mi de nascimentos. Fertilidade perto de 1,0 (o nível de reposição é 2,1).",
+          "source": {"name": "Asia Times / Wikipedia", "url": "https://asiatimes.com/2026/02/chinas-demographic-crisis-has-moved-from-theory-to-fact/"}
+        },
+        {
+          "title": "Casamentos no menor nível desde a Covid",
+          "text": "Os registros de casamento do 1º trimestre caíram para o menor patamar desde 2020 (1,697 mi de casais, -6,24% no ano). A idade média ao casar subiu para 34 anos. Conecta com \"Casamento e filhos em queda\" do Capítulo 8.",
+          "source": {"name": "South China Morning Post", "url": "https://www.scmp.com/economy/china-economy/article/3353108/chinas-marriage-numbers-plunge-covid-era-low-population-woes-deepen"}
+        }
+      ]
+    },
+    {
+      "key": "viagem",
+      "title": "Para a sua viagem",
+      "zh": "旅行",
+      "items": [
+        {
+          "title": "Isenção de visto de trânsito de 240h cobre o Brasil",
+          "text": "A política de trânsito sem visto de 240 horas (10 dias) agora cobre 54 países, incluindo o Brasil. Vale confirmar regras de entrada/porto de entrada atualizadas antes de embarcar e checar se o seu roteiro HK→Pequim→Shenzhen→Xangai se enquadra ou exige visto turístico normal.",
+          "source": {"name": "Michael B Traveller", "url": "https://michaelbtraveller.com/china-travel-tips/"}
+        },
+        {
+          "title": "Pagamentos: configure Alipay e WeChat ANTES de viajar",
+          "text": "Turistas usam Alipay e WeChat Pay com passaporte estrangeiro + cartão internacional (Visa/Master), sem conta nem telefone chinês. Alipay é mais amigável para estrangeiros; WeChat é indispensável para comunicação. Leve algum yuan em dinheiro e um cartão físico para hotéis. Desligue o VPN na hora de pagar.",
+          "source": {"name": "YellowBirdTour", "url": "https://www.yellowbirdtour.com/how-to-pay-in-china-as-a-foreigner-in-2026-complete-guide-to-wechat-pay-alipay-cards-and-cash/"}
+        },
+        {
+          "title": "Conectividade: eSIM/VPN resolvidos em casa",
+          "text": "Um eSIM da China facilita dados e códigos SMS. Resolva eSIM e VPN antes de sair — dentro da China muitos serviços ocidentais são bloqueados (Google, Instagram, WhatsApp). Hong Kong tem internet aberta; o continente, não.",
+          "source": {"name": "Nomad eSIM", "url": "https://www.nomadesim.com/destination-guides/wechat-pay-and-alipay-payment"}
+        }
+      ]
+    }
+  ]
+}
