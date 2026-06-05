@@ -345,14 +345,14 @@ function navList(){
   const ab=SEC.filter(s=>s.group==='abertura');
   const cap=SEC.filter(s=>s.group==='capitulos');
   const en=SEC.filter(s=>s.group==='encerramento');
-  const apC=SEC.filter(s=>s.raw.startsWith('APÊNDICE C')||s.raw.startsWith('APÊNDICE D'));
+  const apC=[];
   groups.push({h:'Abertura',items:ab.map(s=>({id:s.id,label:s.label||s.title,num:''}))});
   groups.push({h:'Capítulos',items:cap.map(s=>({id:s.id,label:s.title,num:(s.label||'').replace(/\D/g,'')}))});
   groups.push({h:'Encerramento',items:en.map(s=>({id:s.id,label:s.title,num:''}))});
   groups.push({h:'Referência',items:[
     {id:'glossario',ic:'❦',label:'Glossário ('+APOSTILA.glossary.length+')'},
     {id:'cronologia',ic:'❘',label:'Cronologia'},
-    ...apC.map(s=>({id:s.id,ic:'＋',label:s.raw.startsWith('APÊNDICE C')?'Adendo HSM Management':(s.label+' · '+s.title)}))
+    ...apC.map(s=>({id:s.id,ic:'＋',label:s.title}))
   ]});
   return groups;
 }
@@ -452,7 +452,7 @@ function renderHome(){
       <span class="pv">${esc(pv)}</span></a>`;
   }).join('');
   const concl=SEC.find(s=>s.group==='encerramento');
-  const apC=SEC.find(s=>s.raw.startsWith('APÊNDICE C'));
+  const apC=null;
   return `<div class="hero">
     <div class="cn">${m.zh}</div>
     <h1>China</h1>
