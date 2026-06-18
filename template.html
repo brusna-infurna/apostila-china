@@ -345,7 +345,7 @@ function navList(){
   const ab=SEC.filter(s=>s.group==='abertura');
   const cap=SEC.filter(s=>s.group==='capitulos');
   const en=SEC.filter(s=>s.group==='encerramento');
-  const apC=[];
+  const apC=SEC.filter(s=>s.group==='apendices' && s.id!=='apendice-a-glossario-expandido' && !s.id.startsWith('apendice-b-cronologia'));
   groups.push({h:'Abertura',items:ab.map(s=>({id:s.id,label:s.label||s.title,num:''}))});
   groups.push({h:'Capítulos',items:cap.map(s=>({id:s.id,label:s.title,num:(s.label||'').replace(/\D/g,'')}))});
   groups.push({h:'Encerramento',items:en.map(s=>({id:s.id,label:s.title,num:''}))});
