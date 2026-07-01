@@ -39447,11 +39447,17 @@ function navList(){
   groups.push({h:'Abertura',items:ab.map(s=>({id:s.id,label:s.label||s.title,num:''}))});
   groups.push({h:'Capítulos',items:cap.map(s=>({id:s.id,label:s.title,num:(s.label||'').replace(/\D/g,'')}))});
   groups.push({h:'Encerramento',items:en.map(s=>({id:s.id,label:s.title,num:''}))});
-  const apC = byId[AI_ATLAS_ID];
+  const extraApendices = SEC.filter(s=>s.group==='apendices' && s.id!=='apendice-a-glossario-expandido' && !s.id.startsWith('apendice-b-cronologia'));
+  const shortLabel = s => {
+    if (s.id === AI_ATLAS_ID) return 'China AI Atlas';
+    // Extrai título curto: remove label prefix e keep 1-3 primeiras palavras substantivas
+    const t = (s.title||'').replace(/^—\s*/,'').replace(/^:\s*/,'').split(/\s—\s|\s-\s/)[0];
+    return t.length > 32 ? t.slice(0,30)+'…' : t;
+  };
   groups.push({h:'Referência',items:[
     {id:'glossario',ic:'❦',label:'Glossário ('+APOSTILA.glossary.length+')'},
     {id:'cronologia',ic:'❘',label:'Cronologia'},
-    ...(apC ? [{id:apC.id, ic:'+', label:'China AI Atlas'}] : [])
+    ...extraApendices.map(s=>({id:s.id, ic:'+', label:shortLabel(s)}))
   ]});
   return groups;
 }
