@@ -498,6 +498,27 @@ h1.sec-title{
   transition:all .2s var(--ease);
 }
 .dl:hover{border-color:var(--ink-3);color:var(--ink);transform:translateY(-1px)}
+
+.subscribe-hero{margin-top:14px;display:flex;flex-direction:column;align-items:center;gap:8px}
+.sub-btn{
+  display:inline-flex;align-items:center;gap:8px;
+  font-family:var(--sans);font-size:14px;font-weight:600;text-decoration:none;
+  color:#fff;background:var(--accent);
+  padding:12px 26px;border-radius:999px;
+  transition:all .2s var(--ease);
+}
+.sub-btn:hover{background:var(--accent-soft);transform:translateY(-1px)}
+.sub-note{font-family:var(--sans);font-size:12.5px;color:var(--ink-3)}
+.sub-top{
+  display:inline-flex;align-items:center;
+  font-family:var(--sans);font-size:13px;font-weight:600;text-decoration:none;
+  color:#fff;background:var(--accent);
+  padding:7px 16px;border-radius:999px;margin-left:10px;white-space:nowrap;
+  transition:all .2s var(--ease);
+}
+.sub-top:hover{background:var(--accent-soft)}
+@media(max-width:720px){.sub-top{display:none}}
+
 .dl b{color:var(--ink);font-weight:600}
 
 .section-h{
@@ -1034,6 +1055,7 @@ h1.sec-title{
     <input id="search" placeholder="Buscar na apostila…" autocomplete="off" aria-label="Buscar">
     <span class="kbd-hint">/</span>
   </div>
+  <a class="sub-top" href="https://www.linkedin.com/newsletters/di%C3%A1rio-de-bordo-before-7478251094402297856/" target="_blank" rel="noopener">Assinar</a>
 </div>
 
 <div id="layout">
@@ -38254,6 +38276,10 @@ function renderHome(){
     <div class="downloads reveal">
       <a class="dl" href="exports/apostila-china.pdf" download>↓ <b>PDF</b> · 110 págs</a>
       <a class="dl" href="exports/apostila-china.epub" download>↓ <b>EPUB</b> · Kindle</a>
+    </div>
+    <div class="subscribe-hero reveal">
+      <a class="sub-btn" href="https://www.linkedin.com/newsletters/di%C3%A1rio-de-bordo-before-7478251094402297856/" target="_blank" rel="noopener">Assinar o Diário de Bordo</a>
+      <span class="sub-note">Newsletter no LinkedIn · nova edição toda terça, até o embarque</span>
     </div>
     ${lastSec?`<div style="margin-top:22px"><a class="resume reveal" href="#/${lastSec.id}">Continuar: ${esc(lastSec.label||lastSec.title)} →</a></div>`:''}
   </div>
